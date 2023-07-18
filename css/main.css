@@ -1,0 +1,95 @@
+body, html {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  color: #000;
+  line-height: 21px;
+}
+
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1920px;
+  padding: 0 10px;
+  margin: 0 auto;
+  height: 100%;
+}
+frameset {
+  border: none;
+}
+frame {
+  border: none;
+}
+.main {
+  height: 70vh;
+  width: 100%;
+  background-color: gray;
+}
+
+
+.text {
+  height: 75vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.comment {
+  width: 100%;
+  height: 73vh;
+  background-color: rgba(255, 255, 143, 0.722);
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  resize: none;
+}
+.sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+.sec-timer {
+  margin-bottom: 10px;
+}
+#timer {
+  font-size: 52px;
+  font-weight: 900;
+  margin-bottom: 70px;
+}
+#startBtn {
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 22px;
+  margin-right: 10px;
+}
+#pauseBtn {
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 22px;
+  margin-right: 10px;
+}
+#resetBtn {
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 22px;
+}
